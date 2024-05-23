@@ -1,3 +1,5 @@
+resultado index.css 
+
 * {
     margin: 0;
     padding: 0;
@@ -53,74 +55,120 @@ header {
 .header-content h1 {
     font-size: 70px;
     margin-top: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header-content p {
     margin: 10px 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 19px;
 }
 
 .start {
     padding: 10px 20px;
     font-size: 1em;
-    background-color: #00ffcc;
+    background-color: #1ac491;
     border: none;
-    color: white;
+    color: rgb(3, 3, 3);
     cursor: pointer;
+    border-radius: 70px;
 }
 
-.services, .look-inside, .safe-reliable {
+.container {
     width: 100%;
-    padding: 50px 20px;
+    background-color: rgb(194, 66, 66);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.protection-section {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-.service-cards {
+.look-inside-section{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.safe-reliable-section {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.features {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.service-card {
-    flex: 1 1 30%;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    background-color: white;
+.feature {
+    flex: 1;
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
 }
 
-.look-inside .content, .safe-reliable .content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.feature img {
+    max-width: 100px;
+    margin-bottom: 20px;
 }
 
-.look-inside .content .text, .safe-reliable .content .text {
-    flex: 1 1 50%;
-}
-
-.look-inside .content img, .safe-reliable .content img {
-    flex: 1 1 50%;
+.look-inside-section img {
     max-width: 100%;
+    margin-top: 20px;
 }
 
-/* Button learn-more style */
-.learn-more {
+.safe-reliable-section img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.look-inside-section button {
     padding: 10px 20px;
-    font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #00ffcc;
+    background-color: #1ac491;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-.learn-more:hover {
-    background-color: #009999;
+.safe-reliable-section button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1ac491;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.look-inside-section button:hover {
+    background-color: #286653;
+}
+
+.safe-reliable-section button:hover {
+    background-color: #286653;
+}
+
+.safe-reliable-section {
+    background-color: #1ac491;
+    color: white;
 }
