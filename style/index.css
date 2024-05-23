@@ -74,101 +74,226 @@ header {
     border-radius: 70px;
 }
 
-.container {
-    width: 100%;
-    background-color: rgb(194, 66, 66);
-}
-
-h1 {
+.protection {
     text-align: center;
-    color: white;
+    padding: 50px 20px;
+    background-color: #fff;
 }
 
-h2 {
-    text-align: center;
-    color: white;
-}
-
-.protection-section {
-    padding: 50px 0;
+.smarts {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.look-inside-section{
-    padding: 50px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.safe-reliable-section {
-    padding: 50px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.features {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .feature {
+    background-color: #fff;
+    padding: 20px;
     flex: 1;
-    margin: 20px;
     max-width: 300px;
     text-align: center;
 }
 
-.feature img {
-    max-width: 100px;
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.green-background {
+    background-color: #00ff99;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 2em;
     margin-bottom: 20px;
 }
 
-.look-inside-section img {
-    max-width: 100%;
-    margin-top: 20px;
+p {
+    color: #666;
+    margin-bottom: 20px;
 }
 
-.safe-reliable-section img {
-    max-width: 100%;
-    margin-top: 20px;
-}
-
-.look-inside-section button {
-    padding: 10px 20px;
-    background-color: #1ac491;
-    color: white;
+button {
+    background-color: #000;
+    color: #fff;
     border: none;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.safe-reliable-section button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #1ac491;
-    color: white;
+button:hover {
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+}
+
+.image-content {
+    flex: 1;
+    text-align: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #050332;
+    color: #fff;
     border: none;
+    padding: 10px 20px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #178751;
+}
+
+
+.pricing {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.pricing h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-plan {
+    background-color: #fff;
+    padding: 20px;
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.pricing-plan.featured {
+    background-color: #000033;
+    color: #fff;
+}
+
+.pricing-plan h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.pricing-plan .price {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+.pricing-plan .price span {
+    font-size: 3em;
+}
+
+.pricing-plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    color: inherit;
+}
+
+.pricing-plan ul li {
+    margin: 10px 0;
+}
+
+.pricing-plan button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.look-inside-section button:hover {
-    background-color: #286653;
+.pricing-plan.featured button {
+    background-color: #00ff99;
+    color: #000033;
 }
 
-.safe-reliable-section button:hover {
-    background-color: #286653;
+.pricing-plan button:hover {
+    background-color: #333;
 }
 
-.safe-reliable-section {
-    background-color: #1ac491;
-    color: white;
+.footer {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: #e4e2e2;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-container img {
+    max-width: 100px;
+    height: auto;
 }
