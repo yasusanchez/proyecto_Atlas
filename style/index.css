@@ -102,6 +102,9 @@ header {
 
 .green-background {
     background-color: #00ff99;
+    width: 100vw;
+    height: 20rem;
+    clip-path: polygon(0 51%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .container {
@@ -129,6 +132,7 @@ header {
 .image-content img {
     max-width: 100%;
     height: auto;
+
 }
 
 h2 {
@@ -351,6 +355,7 @@ footer .social-icons img {
 
 .contact-info h1 {
     margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .contact-info p {
@@ -370,7 +375,7 @@ footer .social-icons img {
 .contact-form textarea {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #33ba9f;
     border-radius: 5px;
 }
 
@@ -379,7 +384,7 @@ footer .social-icons img {
     border: none;
     border-radius: 5px;
     background-color: #00ffcc;
-    color: #0a0e27;
+    color: #000000;
     font-size: 16px;
     cursor: pointer;
 }
@@ -389,17 +394,21 @@ footer .social-icons img {
 }
 
 footer {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 20px;
-    background-color: #14113f;
+    background-color: #0c042e;
 }
 
 footer p {
     margin: 0;
+    margin-right: auto;
 }
 
 .social-links {
     margin-top: 10px;
+    align-self: flex-end;
 }
 
 .social-links a {
@@ -410,4 +419,6 @@ footer p {
 .social-links img {
     width: 24px;
     height: 24px;
+    background-color: white;
+    border-radius: 70px;
 }
