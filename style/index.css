@@ -257,20 +257,20 @@ button:hover {
 .footer {
     background-color: #e4dcdc;
     width: 100%; 
-    padding: 20px 0;
+    padding: 30px 0; 
     text-align: center;
 }
 
 .footer-container {
     display: flex;
     justify-content: center;
-    gap: 15px; 
+    gap: 80px; 
     flex-wrap: wrap;
 }
 
 .footer-container img {
-    max-width: 100px;
-    height: 80px; 
+    max-width: 80px;
+    height: 60px; 
     margin: 0 20px; 
 }
 
@@ -337,4 +337,77 @@ footer .social-icons img {
     width: 24px;
     height: 24px;
     margin: 0 10px; 
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.contact-info {
+    max-width: 40%;
+}
+
+.contact-info h1 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-form {
+    max-width: 50%;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ffcc;
+    color: #0a0e27;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #00ccaa;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #14113f;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
 }
