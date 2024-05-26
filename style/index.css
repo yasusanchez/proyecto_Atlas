@@ -146,7 +146,7 @@ button {
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 70px;
     cursor: pointer;
 }
 
@@ -157,12 +157,13 @@ button:hover {
 .pricing {
     text-align: center;
     padding: 50px 20px;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .pricing h2 {
     font-size: 2.5em;
     margin-bottom: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .pricing-container {
@@ -175,7 +176,7 @@ button:hover {
 .pricing-plan {
     background-color: #fff;
     padding: 20px;
-    flex: 1;
+    flex: 1; 
     max-width: 300px;
     text-align: center;
 }
@@ -199,11 +200,27 @@ button:hover {
     font-size: 3em;
 }
 
+.pricing-plan:nth-last-child(3) .price span {
+    color: #000000; 
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pricing-plan:nth-last-child(2) .price span {
+    color: #ffffff; 
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pricing-plan:nth-last-child(1) .price span {
+    color: #000000; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .pricing-plan ul {
     list-style: none;
     padding: 0;
     margin: 20px 0;
     color: inherit;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .pricing-plan ul li {
@@ -211,26 +228,35 @@ button:hover {
 }
 
 .pricing-plan button {
-    background-color: #000;
-    color: #fff;
-    border: none;
+    background-color: #fffcfc;
+    color: #000000; 
+    border: 2px solid #000000;
     padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    border-radius: 70px; 
+    cursor: pointer; 
 }
 
 .pricing-plan.featured button {
     background-color: #00ff99;
-    color: #000033;
+    color: #000000;
+    border: 2px solid #00ff99;
 }
 
-.pricing-plan button:hover {
-    background-color: #333;
+.pricing-plan:nth-child(1) button:hover {
+    background-color: #b1b1b1ef;
+}
+
+.pricing-plan:nth-child(2) button:hover {
+    background-color: #84d8b7;
+}
+
+.pricing-plan:nth-child(3) button:hover {
+    background-color: #b1b1b1ef;
 }
 
 .footer {
-    background-color: #c8c7c7;
-    width: 100%; /* Make sure the footer takes the full width of the page */
+    background-color: #e4dcdc;
+    width: 100%; 
     padding: 20px 0;
     text-align: center;
 }
@@ -238,13 +264,14 @@ button:hover {
 .footer-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px; 
     flex-wrap: wrap;
 }
 
 .footer-container img {
     max-width: 100px;
-    height: auto;
+    height: 80px; 
+    margin: 0 20px; 
 }
 
 .contact-section {
@@ -309,4 +336,5 @@ footer .social-icons a {
 footer .social-icons img {
     width: 24px;
     height: 24px;
+    margin: 0 10px; 
 }
